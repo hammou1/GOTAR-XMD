@@ -1,7 +1,7 @@
 {
   "name": "LOUIZA",
   "description": "Javascript WhatsApp bot made LOUIZA ᴛᴇᴄʜ",
-  "logo": "https://files.catbox.moe/82b8gr.jpg",
+  "logo": "https://files.catbox.moe/56gtnw.jpg",
   "keywords": ["LOUIZA"],
   "success_url": "/",
 
@@ -132,7 +132,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/82b8gr.jpg"
+      "value": "https://files.catbox.moe/56gtnw.jpg"
     },
     
      "DESCRIPTION": {
