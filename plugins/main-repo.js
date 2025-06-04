@@ -21,7 +21,7 @@ async (conn, mek, m, { from, reply }) => {
 
         const response = await fetch(`https://api.github.com/repos/${username}/${repoName}`, {
             headers: {
-                'User-Agent': 'GOTAR-XMD'
+                'User-Agent': 'LOUIZA'
             }
         });
 
@@ -36,7 +36,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         const message = `┌──────────────────────┐
-│  💫 𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗 𝗥𝗘𝗣𝗢  💫  
+│  💫 LOUIZA 𝗥𝗘𝗣𝗢  💫  
 ├──────────────────────
 │ • Name: ${repoData.name}
 │ • Owner: ${repoData.owner.login}
@@ -48,15 +48,15 @@ async (conn, mek, m, { from, reply }) => {
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*`;
 
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/82b8gr.jpg` },
+            image: { url: `https://files.catbox.moe/gg8y4o.png` },
             caption: message,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401658098220@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
+                    newsletterJid: '0029Vb67QXF29757iUvP1q09@newsletter',
+                    newsletterName: config.OWNER_NAME || 'LOUIZA',
                     serverMessageId: 143
                 }
             }
