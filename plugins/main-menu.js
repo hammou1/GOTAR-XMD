@@ -9,7 +9,7 @@ cmd({
   use: '.menu',
   desc: "Show all bot commands",
   category: "menu",
-  react: "🐍",
+  react: "📂",
   filename: __filename
 },
 async (conn, mek, m, { from, reply }) => {
@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
 
     // Menu principal
     let menuText = `
-*╭══ 𝐆𝐎𝐓𝐀𝐑-𝐗𝐌𝐃*
+*╭══ LOUIZA *
 *┃❃* *ᴜsᴇʀ* : @${m.sender.split("@")[0]}
 *┃❃* *ʀᴜɴᴛɪᴍᴇ* : ${uptime()}
 *┃❃* *ᴍᴏᴅᴇ* : *${config.MODE}*
