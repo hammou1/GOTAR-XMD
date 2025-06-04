@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart GOTAR-XMD",  
+    desc: "Restart LOUIZA",  
     category: "owner",  
     filename: __filename  
 },  
