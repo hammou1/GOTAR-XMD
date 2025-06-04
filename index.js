@@ -114,7 +114,7 @@ const port = process.env.PORT || 9090;
   console.log('GOTAR-XMD CONNECTED SUCCESSFULLY ✅')
   
   let up = `*Hello there LOUIZA User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet LOUIZA WhatsApp Bot.\n\n *Thanks for using LOUIZA \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb67QXF29757iUvP1q09\n\n- *YOUR PREFIX:* = ${prefix}\n\n- *BOT MODE:* = ${config.MODE}\n\nDont forget to give star to repo ⬇️\n\nhttps://www.facebook.com/abdeladim.hammou.9\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ LOUIZA ᴛᴇᴄʜ \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/82b8gr.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/gg8y4o.png` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
