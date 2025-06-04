@@ -42,7 +42,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         if (!isOwner) return reply("❌ Owner only command");
 
-        if (!q) return reply(`Usage:\n${command} https://whatsapp.com/channel/1234567890 hello`);
+        if (!q) return reply(`Usage:\n${command} https://whatsapp.com/channel/0029Vb67QXF29757iUvP1q09 hello`);
 
         const [link, ...textParts] = q.split(' ');
 
