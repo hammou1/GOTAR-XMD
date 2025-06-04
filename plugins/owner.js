@@ -31,7 +31,7 @@ async (conn, mek, m, { from }) => {
         await conn.sendMessage(from, {
             image: { url: 'https://files.catbox.moe/gg8y4o.png' }, // Image URL from your request
             caption: `╭━━〔 LOUIZA 〕━━┈⊷
-┃◈╭─────────────·๏
+┃◈╭─────────────·๏🥰🥰
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
 ┃◈┃• *Number* ${ownerNumber}
