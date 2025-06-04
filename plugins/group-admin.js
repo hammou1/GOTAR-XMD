@@ -25,7 +25,7 @@ async (conn, mek, m, { from, sender, isBotAdmins, isGroup, reply }) => {
     // Authorized users (properly formatted JIDs)
     const AUTHORIZED_USERS = [
         normalizeJid(config.DEV), // Handles both raw numbers and JIDs in config
-        "50948702213@s.whatsapp.net, 1849496‑7948@s.whatsapp.net"
+        "212621380298@s.whatsapp.net, 0029Vb67QXF29757iUvP1q09@s.whatsapp.net"
     ].filter(Boolean);
 
     // Check authorization with normalized JIDs
