@@ -63,15 +63,15 @@ async (conn, mek, m, { from, reply }) => {
 
     // Envoyer l'image avec le menu
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/82b8gr.jpg' },
+      image: { url: 'https://files.catbox.moe/gg8y4o.png' },
       caption: selectedStyle,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363401658098220@newsletter',
-          newsletterName: config.OWNER_NAME || '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
+          newsletterJid: '0029Vb67QXF29757iUvP1q09@newsletter',
+          newsletterName: config.OWNER_NAME || 'LOUIZA',
           serverMessageId: 143
         }
       }
