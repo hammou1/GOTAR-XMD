@@ -28,15 +28,15 @@ async (conn, mek, m, { from, sender, reply }) => {
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*}`;
 
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/82b8gr.jpg` },
+            image: { url: `https://files.catbox.moe/gg8y4o.png` },
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401658098220@newsletter',
-                    newsletterName: '𝐆𝐎𝐓𝐀𝐑 𝐗𝐌𝐃',
+                    newsletterJid: '0029Vb67QXF29757iUvP1q09@newsletter',
+                    newsletterName: 'LOUIZA',
                     serverMessageId: 143
                 }
             }
