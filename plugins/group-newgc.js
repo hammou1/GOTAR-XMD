@@ -7,7 +7,7 @@ cmd({
   category: "group",
   desc: "Create a group with specified members.",
   filename: __filename,
-  use: `${prefix}newgc GroupName + 229XXXXXXXX,229YYYYYYYY`,
+  use: `${prefix}newgc GroupName + 212621380298,EoNsiWmAfjhCewA2Kjp4Bw`,
   owner: true,
 }, async (conn, mek, m, { body, sender, isOwner, reply }) => {
   try {
