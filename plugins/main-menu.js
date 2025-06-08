@@ -4,11 +4,11 @@ const { cmd, commands } = require('../command');
 const axios = require('axios');
 
 cmd({
-  pattern: "m",
-  alias: ["allmenu", "hammou"],
+  pattern: "menu",
+  alias: ["allmenu", "gotar"],
   use: 'menu',
   desc: "Show all bot commands",
-  category: "m",
+  category: "menu",
   react: "📂",
   filename: __filename
 },
